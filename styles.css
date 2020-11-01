@@ -1,0 +1,109 @@
+body{
+	background-color:cyan; 
+}
+
+ul{
+	background-color:yellow;
+}
+
+div{
+	position:absolute;
+}
+
+.darkgreen{
+	background-color:#2D7844;
+	width:550px;
+	height:300px;
+	top:80px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding:80px;
+
+}
+
+.yellow{
+	background-color:#D4DF57;
+	left:600px;
+	width:1250px;
+	height:300px;
+	top:80px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding:100px;
+
+}
+
+.red{
+	background-color:#E07340;
+	left:1300px;
+	top:400px;
+	width:550px;
+	height:300px;
+	font-size: 40px;
+	text-align: center;
+	
+
+}
+
+.lightgreen{
+	background-color:#57DF97;
+	top:400px;
+	width:1250px;
+	height:300px;
+	font-family: 'Staatliches', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding:100px;
+
+}
+
+.red2{
+	background-color:#E07340;
+	top:730px;
+	height:237px;
+	width:550px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding:100px;
+
+}
+
+.darkgreen2{
+	background-color:#2D7844;
+	left:600px;
+	top:730px;
+	width:1250px;
+	height:237px;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 40px;
+	text-align: center;
+	padding:100px;
+}
+	
+.w3-image{
+	width:100%;
+	height:100%;
+	padding:50px;
+}
+
+@media screen and (max-width: 992px){
+	.darkgreen,.yellow,.red,.lightgreen,.red2,.darkgreen2{
+		width:90%;
+	}
+}
+
+@media screen and (max-width:600px){
+	.darkgreen,.yellow,.red,.lightgreen,.red2,.darkgreen2{{
+		width:60%;
+	}
+}
+
+@media screen and (max-width: 300px){
+	.darkgreen,.yellow,.red,.lightgreen,.red2,.darkgreen2{{
+		width:30%;
+	}
+}
+
